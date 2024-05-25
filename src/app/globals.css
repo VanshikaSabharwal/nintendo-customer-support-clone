@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.topSupport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0rem 3rem;
+}
+.topSupport .supportLogo img {
+  width: 11rem;
+  height: 5rem;
+  cursor: pointer;
+}
+.topSupport .supportLogin a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 5rem;
+  width: 13rem;
+  color: #01668e;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
