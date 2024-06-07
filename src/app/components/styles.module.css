@@ -1,0 +1,85 @@
+.topSupport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0rem 3rem;
+}
+.topSupport .supportLogo img {
+  width: 11rem;
+  height: 5rem;
+  cursor: pointer;
+}
+.topSupport .supportLogin a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 5rem;
+  width: 13rem;
+  color: #01668e;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.mainSupport .supportHeadingContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.mainSupport .supportHeadingContainer .supportHeading h1 {
+  color: rgb(87, 87, 87);
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+.supportContainer {
+  position: relative;
+}
+.mainSupport .supportSearch {
+  width: 100%;
+  background: linear-gradient(
+    45deg,
+    rgb(45, 184, 170),
+    rgb(0, 255, 221),
+    rgb(116, 56, 138)
+  );
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainSupport .supportSearch form {
+  display: flex;
+  background: white;
+  padding: 12px 14px;
+  border-radius: 16px;
+  margin-left: 14rem;
+}
+
+.supportTrendingArticle {
+  position: relative;
+  z-index: 2000;
+  top: -15rem;
+  margin: 1rem 4rem;
+}
+.supportTrendingArticle h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(87, 87, 87);
+}
+.supportTrendingArticle ul {
+  list-style: inherit;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 2fr);
+  gap: 10px;
+}
+.supportTrendingArticle ul li a {
+  text-decoration: underline;
+  color: #3898d5;
+}
+.supportTrendingArticle ul li a:hover {
+  color: red;
+}

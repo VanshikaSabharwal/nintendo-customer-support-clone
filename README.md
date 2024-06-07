@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- Attributes -->
+
+1. Face recognition icon
+   <a href="https://iconscout.com/icons/face-recognition" class="text-underline font-size-sm" target="_blank">face recognition</a> by <a href="https://iconscout.com/contributors/kawalanicon" class="text-underline font-size-sm">Kawalan Studio</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
+
+2. Fingerprint icon
+   <a href="https://iconscout.com/icons/fingerprint" class="text-underline font-size-sm" target="_blank">Fingerprint</a> by <a href="https://iconscout.com/contributors/phosphoricons" class="text-underline font-size-sm" target="_blank">Phosphor Icons</a>
